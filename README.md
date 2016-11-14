@@ -13,7 +13,7 @@ This version use UDP socket to receive/send DNS messages and scapy lib to decode
 - you must used regular expresion to create rewrrite rules
 - you can transform a string (part of fqdn), entire fqdn, or antire domain name
 
-'''
+```
 # Example to rewrite a simple string: 
 ^wwww\.:www.
 ^social\.:www.
@@ -28,10 +28,10 @@ This version use UDP socket to receive/send DNS messages and scapy lib to decode
 #
 # Example to rewrite entire domain name 
 ^.+\.example\.org:localhost
-'''
+```
 
 ###Usage :
-'''
+```
 usage: fj-dns2proxy.py [-h] [-i IPLOCAL] [-r RESOLVER] [-c] [-s]
 
 optional arguments:
@@ -42,6 +42,6 @@ optional arguments:
                         resolver DNS (default:8.8.8.8)
   -c, --nocolor         Print without color
   -s, --silence         Silence mode
-'''
+```
 
 
