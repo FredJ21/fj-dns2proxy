@@ -6,12 +6,12 @@ This tool is inspired by Loenardo's projet https://github.com/LeonardoNve/dns2pr
 This version use UDP socket to receive/send DNS messages and scapy lib to decode/rewrite packets
 
 ##Two main features:
-- Visual and colored outout to console (wouhaaa !!! +1)
+- Visual and colored outout console (wouhaaa !!!) --> It's very efficient to understand what is happening 
 - Juste only one configuration file  
 
 ##transform.cfg file:
 - you must used regular expresion to create rewrrite rules
-- you can transform a string (part of fqdn), entire fqdn, or antire domain name
+- you can transform a string (part of fqdn), entire fqdn, or entire domain name
 
 ```
 # Example to rewrite a simple string: 
