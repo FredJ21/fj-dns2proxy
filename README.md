@@ -1,5 +1,5 @@
 # fj-dns2proxy
-Offensive DNS server Spoof & Rewrite request
+Offensive DNS proxy Spoof & Rewrite request
 
 This tool is inspired by Loenardo's projet https://github.com/LeonardoNve/dns2proxy
 
